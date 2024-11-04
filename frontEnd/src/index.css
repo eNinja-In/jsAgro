@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {width: 5px;}
+::-webkit-scrollbar-track {background: black;}
+/* ::-webkit-scrollbar-thumb:hover {background: linear-gradient(180deg, rgb(0, 229, 255) 0%, rgba(40, 138, 243, 0.87) 100%);} */
+/* ::-webkit-scrollbar-thumb {background: linear-gradient(360deg, rgb(0, 225, 255) 0%, rgba(40, 138, 243, 0.87) 100%);} */
+::-webkit-scrollbar-thumb {background: white;}

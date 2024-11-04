@@ -1,0 +1,297 @@
+/* Mobile phones (portrait and landscape) */
+@media only screen and (max-width: 500px) {
+    /* CSS styles for small mobile phones */
+    .main {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    .aboutJS {
+        width: 100%;
+    }
+    .aboutJSWelcome {
+        width: 100%;
+        height: max-content;
+        background-color: rgba(0, 187, 255, 0.363) ;
+
+    }
+    .welcomeAboutIngo {
+        width: 100%;
+        text-align: center;
+        padding: 0.5% 0;
+    }
+    .JSAgro {
+        width: 100%;
+    }
+    .JSAgro h2 {
+        color: blue;
+        font: 160%;
+        margin: 0;
+    }
+    .JSAgro h3 {
+        /* color: ; */
+        font-size: 90%;
+        font-weight: 400;
+        /* margin: 0; */
+    }
+    .welcomeAboutLeft, .welcomeAbouRight {
+        display: none;
+    }
+
+    .aboutJSOwner {
+        width: 100%;
+        /* background-color: aqua; */
+        /* text-align: center; */
+    }
+    .Owner {
+        width: 80%;
+        margin: 2% auto;
+        padding: 4%;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        border: 1.5px solid rgba(133, 127, 127, 0.603);
+        border-radius: 20px;
+    }
+    .ownerImg {
+        width: 100%;
+    }
+
+    .Image {
+        width: 80%;
+        /* padding: 5%; */
+        height: 45vw;
+        overflow: hidden;
+        margin: auto;
+        /* background-color: blanchedalmond; */
+        text-align: center;
+    }
+    .Image img {
+        width: auto;
+        max-height: 85%;
+        /* height: 40vh; */
+        /* margin: auto; */
+        /* background-color: aqua; */
+
+    }
+    .Image h3 {
+        width: 100%;
+        height: 10%;
+        font-size: 140%;
+        /* font-weight: 400; */
+        margin: 0;
+        padding: 0;
+        /* background-color: aquamarine; */
+    }
+
+    .info {
+        width: 100%;
+        text-align: center;
+    }
+    .info h2 {
+        width: 100%;
+        color: blue;
+        margin: 0;
+        display: none;
+    }
+    .info h4 {
+        font-size: 100%;
+        font-weight: 300;
+        color: rgb(109, 109, 109);
+        /* margin: 0; */
+    }
+    .info p {
+        font-size: 90%;
+        color: rgb(109, 109, 109);
+        display: none;
+    }
+    .social {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        justify-self: center;
+    }
+
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
+    /* CSS styles for tablets */
+    .main{
+        /* width: 100vw; */
+        padding: 0;
+        margin: 0;
+        /* background-color: aqua; */
+    }
+}
+
+/* Laptops (small to medium screens) */
+@media only screen and (min-width: 1025px){
+    /* CSS styles for laptops */
+    .main {
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        /* background-color: aqua; */
+    }
+    .aboutJS {
+        width: 100%;
+        /* padding: 2%; */
+        /* background-color: aquamarine; */
+    }
+    .aboutJSWelcome {
+        width: 100%;
+        padding: 1% 0;
+        max-height: 16vh;
+        min-height: 16vh;
+        background-color: rgba(0, 187, 255, 0.363) ;
+        /* background-image: url('/team/Team.jpeg'); */
+        /* background-position: center; */
+        /* background-size: cover; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* text-align: center; */
+    }
+    .welcomeAbouRight, .welcomeAboutLeft {
+        width: 15%;
+        /* background-color: aqua; */
+    }
+    .welcomeAbouRight img {
+        width: 100%;
+        opacity: 0;
+        animation: slightLeft 2s ease forwards;
+    }
+    .welcomeAboutLeft img {
+        width: 100%;
+        opacity: 0;
+        /* animation: sligdeRight 2s ease forwards; */
+        animation: slightRight 2s ease forwards;
+        transform: rotateY(180deg);
+    }
+    .welcomeAboutIngo {
+        width: 50%;
+        /* background-color: aquamarine; */
+    }
+    .JSAgro {
+        width: 100%;
+        text-align: center;
+        /* background-color: aqua; */
+    }
+    .JSAgro h2 {
+        margin: 0;
+        opacity: 1;
+        font-size: 200%;
+        color: blue;
+    }
+    .JSAgro h3 {
+        font-size: 100%;
+        font-weight: 300;
+        /* margin: 0; */
+    }
+    .aboutJSOwner {
+        width: 77%;
+        padding: 2%;
+        margin: 2% auto;
+        /* background-color: aqua; */
+        border: 2px solid rgba(133, 127, 127, 0.603);
+        border-radius: 20px;
+    }
+    .Owner {
+        width: 100%;
+        /* padding: 1%; */
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ownerInfo, .ownerImg {
+        width: 46%;
+        padding: 0 2%;
+        /* background-color: antiquewhite; */
+    }
+    .info {
+        width: 100%;
+    }
+    .info h2 {
+        width: 100%;
+        font-size: 180%;
+        margin: 0;
+        opacity: 0;
+        padding: 0;
+        text-align: center;
+        color: blue;
+        animation: slideRight 1s ease forwards;
+    }
+    .info h4 {
+        width: 100%;
+        opacity: 0;
+        text-align: center;
+        font-size: 100%;
+        margin: 3% 0;
+        font-weight: 100;
+        animation: slideRight 2s ease forwards;
+
+    } 
+    .info p {
+        max-width: 100%;
+        opacity: 0;
+        font-size: 90%;
+        color: rgb(109, 109, 109);
+        animation: slideRight 3s ease forwards;
+
+    }
+    .social {
+        opacity: 0;
+        width: 100%;
+        animation: slideRight 4s ease forwards;
+        
+        /* background-color: aqua; */
+        /* display: flex; */
+        /* justify-content: center; */
+        /* text-align: center; */
+    }
+    .Image {
+        width: 50%;
+        /* padding: 4%; */
+        margin: 0 auto;
+        border: 20px;
+        text-align: center;
+        border: 2px solid blue;
+        border-radius: 10px;
+        /* border: 2px solid black; */
+        /* background-color: aqua; */
+    }
+    .Image h3 {
+        width: 100%;
+        font-size: 110%;
+        font-weight: 200;
+        margin: 0;
+        padding: 0;
+        /* background-color: aquamarine; */
+    }
+    .Image img {
+        width: 100%;
+        opacity: 0;
+        /* background-color: bisque; */
+        animation: image 1.5s ease forwards ;
+    }
+    @keyframes image {
+        0%{transform: translateY(-10px); opacity: 0;width: 40%;}
+        100%{opacity: 1; transform: translateY(0);width: 100%;}
+        
+    }
+    @keyframes slideRight {
+        0%{transform: translateX(-50px);opacity: 0;}
+        100%{transform: translateX(0);opacity: 1;}
+    }
+    @keyframes slightRight {
+        0%{opacity: 0; transform: rotateY(180deg) translateX(120px); width: 40%;}
+        100%{opacity:1;transform: rotateY(180deg) translateX(0);width: 100%;}
+    }
+    @keyframes slightLeft {
+        0%{opacity: 0; transform: translateX(150px); width: 40%;}
+        100%{opacity:1;transform: translateX(0);width: 100%;}
+    }
+}

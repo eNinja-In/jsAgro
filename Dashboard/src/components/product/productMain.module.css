@@ -1,0 +1,81 @@
+/* Smartphones (portrait and landscape) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Laptops and Desktops (above 1024px) */
+@media only screen and (min-width: 1025px) {
+    .main {
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+    .products {
+        width: 100%;
+        margin: 1% 0;
+        padding: 0%;
+        display: flex;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        /* background-color: aquamarine; */
+        /* border: 1.5px solid gray; */
+        border-left: 0;
+        border-right: 0;
+    }
+    .leftBtnOption {
+        width: 20%;
+        padding:  1%;
+        /* background-color: aqua; */
+        /* border-right: 1.5px solid blue; */
+        border-radius: 20px;
+        /* border-bottom-right-radius: 20px; */
+        background-color: white;
+    }
+    .prodFunctionBtn {
+        width: 100%;
+        /* background-color: bisque; */
+    }
+    .prodBtn {
+        width: 100%;
+    }
+    .prodBtn button {
+        width: 100%;
+        padding:  4% 5% ;
+        margin: 3% 0;
+        /* background-color: aqua; */
+        text-align: left;
+        display: flex;
+        align-items: center;
+        /* margin: 0.1% 0; */
+        font-size: 100%;
+        font-weight: 500;
+        border: 0;
+        color: black;
+        border-radius: 10px;
+        background-color: white;
+        &:hover {
+            /* color: white; */
+            background-color: rgba(239, 239, 239, 0.884);
+            /* background-color: blue; */
+        }
+        &:hover svg {
+            fill: white;
+            /* color: rgba(255, 255, 255, 0.845); */
+        }
+    }
+    .prodBtn button svg {
+        width: 8%;
+        margin-right: 3%;
+        /* height: 10%; */
+        /* color: white; */
+        fill: black;
+    }
+    .rightResponce {
+        width: 78%;
+        /* background-color: brown; */
+        padding: 1%;
+    }
+}

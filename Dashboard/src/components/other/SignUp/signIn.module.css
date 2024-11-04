@@ -1,0 +1,86 @@
+/* Smartphones (portrait and landscape) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Laptops and Desktops (above 1024px) */
+@media only screen and (min-width: 1025px) {
+    .authContainer {
+        width: 100vw;
+        padding: 2% 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form {
+        width: 40%;
+        padding: 2%;
+        border-radius: 20px;
+        border: 2px solid blue;
+        /* display: flex; */
+        /* justify-content: center; */
+    }
+    .form h2 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        font-size: 200%;
+        color: blue;
+    }
+    .error {
+        width: 100%;
+        height: 1vw;
+        font-size: 90%;
+        color: red;
+        text-align: center;
+        /* background-color: aqua; */
+        /* margin: 0; */
+    }
+    .noError {
+        width: 100%;
+        height: 1vw;
+        font-size: 90%;
+        color: white;
+        /* background-color: aqua; */
+        text-align: center;
+    }
+    form{
+        text-align: center;
+    }
+    .formGroup {
+        width: 100%;
+        margin: 3% 0;
+        text-align: center;
+    }
+    .formGroup input {
+        width: 60%;
+        outline: none;
+        border: 2px solid blue;
+        border-radius: 10px;
+        padding: 1.5% 2%;
+        font-size: 105%;
+    }
+    .loginbtn{
+        min-width: 25%;
+        cursor: pointer;
+        /* max-width: min-content; */
+        color: black;
+        background-color: white;
+        border: 2px solid blue;
+        border-radius: 20px;
+        padding:  1.5% 5%;
+        font-size: 110%;
+        /* font-weight: 600; */
+        text-align: center;
+        align-self: center;
+        &:hover {
+            background-color: blue;
+            color: white;
+        }
+    }
+
+}

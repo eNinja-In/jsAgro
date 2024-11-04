@@ -1,0 +1,32 @@
+/* Smartphones (portrait and landscape) */
+@media only screen and (max-width: 600px) {
+}
+/* Tablets (portrait and landscape) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Laptops and Desktops (above 1024px) */
+@media only screen and (min-width: 1025px) {
+    .main {
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+    .home {
+        width: 90%;
+        padding: 1% 5%;
+        background-color: aqua;
+    }
+    .homeWelcome {
+        width: 100%;
+    }
+    .welcome {
+        width: 100%;
+        text-align: center;
+    }
+    .welcome h1 {
+        color: blue;
+        font-size: 250%;
+        margin: 0;
+    }
+}

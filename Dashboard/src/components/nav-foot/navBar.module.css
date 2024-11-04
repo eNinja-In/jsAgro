@@ -1,0 +1,102 @@
+/* Smartphones (portrait and landscape) */
+@media only screen and (max-width: 600px) {
+}
+/* Tablets (portrait and landscape) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Laptops and Desktops (above 1024px) */
+@media only screen and (min-width: 1025px) {
+    .main {
+        width: 100vw;
+        /* background-color: aqua; */
+        margin: 0;
+        padding: 0;
+        /* border-bottom: 2px solid rgb(218, 218, 218); */
+    }
+    .navbar {
+        display: flex;
+        width: 100%;
+        /* background-color: aquamarine; */
+    }
+    .navBarLogo {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navLogo {
+        width: 100%;
+    }
+    .logo {
+        width: 90%;
+        text-align: center;
+        padding: 5%;
+    }
+    .logo h1 {
+        width: 100%;
+        margin:  0;
+        font-size: 250%;
+        color: blue;
+        /* background-color: beige; */
+    }
+    .navButton {
+        display: none;
+    }
+    .navBarNavigation {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* margin: 2% ; */
+        /* background-color:azure; */
+    }
+    .navigation {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        /* background-color: blueviolet; */
+    }
+    .navLink {
+        width: 12%;
+        padding: 0.5%;
+        margin: 0 4%;
+        text-align: center;
+        border-bottom: 2px solid transparent;
+        /* background-color: red; */
+        &:hover{
+            border-color: blue;
+        }
+
+    }
+    .navLink a {
+        font-size: 115%;
+        text-decoration: none;
+        color: black;
+    }
+    .navSignIn {
+        width: 20%;
+        padding: 2.5%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+    }
+    .navSignIn button {
+        width: 60%;
+        padding: 3%;
+        font-size: 105%;
+        border: 2px solid blue;
+        border-radius: 15px;
+        color: black;
+        background-color: white;
+        &:hover {
+            background-color: blue;
+            color: white;
+        }
+    }
+
+
+    .other {
+        display: none;
+    }
+}

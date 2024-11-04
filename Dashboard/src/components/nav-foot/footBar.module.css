@@ -1,0 +1,81 @@
+/* Smartphones (portrait and landscape) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Tablets (portrait and landscape) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Laptops and Desktops (above 1024px) */
+@media only screen and (min-width: 1025px) {
+    .main {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        /* background-color: aqua; */
+    }
+    .footerBar {
+        width: 100%;
+        padding: 0 ;
+        margin: 0;
+    }
+    .footerMenu {
+        width: 94%;
+        padding: 3%;
+        background-color: blue;
+    }
+    .footerNavigation {
+        width: 100%;
+        display: flex;
+        /* justify-content: space-evenly; */
+        /* background-color: aqua; */
+    }
+    .footNav {
+        width: 21%;
+        margin: 0 2%;
+        /* background-color: blue; */
+    }
+    .footNav h2 {
+        width: 70%;
+        padding: 0 2%;
+        margin: 0;
+        font-size: 180%;
+        color: white;
+        border-bottom: 2px solid transparent;
+        &:hover{
+            border-color: white;
+        }
+    }
+    .navLink {
+        width: 70%;
+        margin: 3% 0;
+        padding:  2% 5% ;
+        border-radius: 10px;
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.381);
+        }
+    }
+    .navLink a {
+        font-size: 120%;
+        text-decoration: none;
+        color: white;
+    }
+
+    .footerCopy {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .copyright {
+        width: 100%;
+        padding: 0.5%;
+    }
+    .copyright p {
+        text-align: center;
+        margin: 0;
+    }
+    .copyright p a {
+        color: black;
+        text-decoration: none;
+    }
+}
